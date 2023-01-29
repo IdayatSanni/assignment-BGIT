@@ -1,4 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .form-area {
   margin: 8px 0;
   border: 23;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 30%;
+  object-fit: cover;
+  height: 400px;
+  padding: 0.5em;
+}
+
+.img-gal {
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
