@@ -33,6 +33,10 @@ img:hover {
   transition: 0.5s;
 }
 
+.about-me {
+  display: flex;
+}
+
 @media (max-width: 650px) {
   img {
     width: 90%;
