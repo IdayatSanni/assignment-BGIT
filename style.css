@@ -13,6 +13,21 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  background-color: bisque;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
 img {
   width: 30%;
   object-fit: cover;
